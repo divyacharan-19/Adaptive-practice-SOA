@@ -1,0 +1,7 @@
+target/
+.idea/
+*.iws
+*.iml
+.vscode/
+.DS_Store
+*.log

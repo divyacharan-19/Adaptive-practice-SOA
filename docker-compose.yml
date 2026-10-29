@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  prerequisite-graph-soa:
+    build: .
+    container_name: adaptive-practice-prerequisite-graph-soa
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+    restart: unless-stopped

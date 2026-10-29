@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: adaptive-practice-prerequisite-graph-soa
+    env: docker
+    plan: free
+    healthCheckPath: /actuator/health
+    envVars:
+      - key: PORT
+        value: 8080
